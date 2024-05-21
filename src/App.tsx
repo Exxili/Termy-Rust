@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import { invoke } from "@tauri-apps/api/tauri";
+import { Button } from 'primereact/button';    
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="container">
         <h1 className="text-3xl text-red-500 font-bold underline">
+        <Button label="Check" icon="pi pi-check" />
     Hello world!
   </h1>
       {/* <h1>Welcome to Tauri!</h1>
