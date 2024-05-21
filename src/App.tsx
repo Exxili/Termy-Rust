@@ -20,7 +20,10 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Welcome to Tauri!</h1>
+        <h1 className="text-3xl text-red-500 font-bold underline">
+    Hello world!
+  </h1>
+      {/* <h1>Welcome to Tauri!</h1>
 
       <div className="row">
         <a href="https://vitejs.dev" target="_blank">
@@ -53,7 +56,7 @@ function App() {
 
       <button onClick={get_ports}>Get Ports</button>
 
-      <p>{greetMsg}</p>
+      <p>{greetMsg}</p> */}
     </div>
   );
 }
